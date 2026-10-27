@@ -5,7 +5,6 @@ description: "The Web profile replaces the `webRuntime` service and the `web-run
 
 # Web listener and trust configuration moves to `webStartup`
 
-English | [中文](guide.zh.md)
 
 ## Change
 

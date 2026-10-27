@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-19-v3-incomplete-child-catalog-evidence.zh.md)
 
 ## Problem
 

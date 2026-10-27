@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-29-reused-blank-runs-requested-preset.zh.md)
 
 ## Problem
 

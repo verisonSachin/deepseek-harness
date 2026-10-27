@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-25
 
-English | [中文](2026-09-24-web-default-schedule-composition.zh.md)
 
 ## Problem
 

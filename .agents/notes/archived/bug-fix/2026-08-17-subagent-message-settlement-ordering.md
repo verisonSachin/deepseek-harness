@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-08-17-subagent-message-settlement-ordering.zh.md)
 
 ## Problem
 

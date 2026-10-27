@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-12-browser-use-provider-registration.zh.md)
 
 ## Problem
 

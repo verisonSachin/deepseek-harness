@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-07-21-follow-instruction-symlinks.zh.md)
 
 ## Problem
 

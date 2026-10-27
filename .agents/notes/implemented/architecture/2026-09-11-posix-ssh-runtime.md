@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-11-posix-ssh-runtime.zh.md)
 
 ## Problem
 

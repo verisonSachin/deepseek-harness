@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-23-native-https-web-listener.zh.md)
 
 ## Problem
 

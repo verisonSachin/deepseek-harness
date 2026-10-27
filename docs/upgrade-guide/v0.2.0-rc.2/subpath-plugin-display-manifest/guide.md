@@ -5,7 +5,6 @@ description: "Subpath plugins no longer read display text or icons from an expor
 
 # Subpath plugins read `<subpath>/icon` instead of `<subpath>/package.json`
 
-English | [中文](guide.zh.md)
 
 ## Change
 

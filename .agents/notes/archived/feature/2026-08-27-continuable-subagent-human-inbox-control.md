@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-08-27-continuable-subagent-human-inbox-control.zh.md)
 
 ## Problem
 

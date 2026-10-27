@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-18-pi-ai-wire-compat-surface.zh.md)
 
 ## Problem
 

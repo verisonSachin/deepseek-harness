@@ -1,6 +1,5 @@
 # Plugin indexes
 
-English | [中文](plugin-market.zh.md)
 
 ## Summary
 

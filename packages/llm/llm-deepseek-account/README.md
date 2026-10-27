@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-llm-deepseek-account
 
-English | [中文](README.zh.md)
 
 ## Summary
 

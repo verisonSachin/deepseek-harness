@@ -5,7 +5,6 @@ kind: "package-library"
 
 # @deepseek-ai/dsh-typert-generator
 
-English | [中文](README.zh.md)
 
 ## Summary
 

@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-23-language-neutral-default-workspace-naming.zh.md)
 
 ## Problem
 

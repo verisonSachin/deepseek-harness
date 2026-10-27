@@ -5,7 +5,6 @@ description: "Agent Teams removes its pending-message limit and stops delivering
 
 # Agent Teams messages use target inboxes
 
-English | [中文](guide.zh.md)
 
 ## Change
 

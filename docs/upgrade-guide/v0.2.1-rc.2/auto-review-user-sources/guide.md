@@ -5,7 +5,6 @@ description: "Auto review recognizes user-sourced task instructions across input
 
 # Auto review recognizes user-sourced instructions
 
-English | [中文](guide.zh.md)
 
 ## Change
 

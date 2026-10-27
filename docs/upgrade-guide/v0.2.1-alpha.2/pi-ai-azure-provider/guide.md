@@ -5,7 +5,6 @@ description: "The pi-ai Azure provider route is renamed from azure-openai-respon
 
 # Azure provider route rename
 
-English | [中文](guide.zh.md)
 
 ## Change
 

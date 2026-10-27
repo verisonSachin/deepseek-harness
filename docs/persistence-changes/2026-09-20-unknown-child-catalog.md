@@ -5,7 +5,6 @@ kind: persistence-change
 
 # 2026-09-20-unknown-child-catalog
 
-English | [中文](2026-09-20-unknown-child-catalog.zh.md)
 
 ## Summary
 

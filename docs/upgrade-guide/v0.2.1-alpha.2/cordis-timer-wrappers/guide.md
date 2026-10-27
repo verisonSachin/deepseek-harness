@@ -5,7 +5,6 @@ description: "Timer wrappers return void in TypeScript and ignore calls after di
 
 # Timer wrapper return types and disposal
 
-English | [中文](guide.zh.md)
 
 ## Change
 

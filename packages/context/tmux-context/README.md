@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-tmux-context
 
-English | [中文](README.zh.md)
 
 ## Summary
 

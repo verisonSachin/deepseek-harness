@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-17-native-v4-read-validation.zh.md)
 
 ## Problem
 

@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-30-session-list-host-fairness.zh.md)
 
 ## Problem
 

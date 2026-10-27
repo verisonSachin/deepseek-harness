@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](<2026-10-10-user-text-json-nodes.zh.md>)
 
 ## Problem
 

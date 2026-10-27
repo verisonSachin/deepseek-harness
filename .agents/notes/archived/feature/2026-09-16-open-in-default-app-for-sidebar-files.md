@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-16-open-in-default-app-for-sidebar-files.zh.md)
 
 ## Problem
 

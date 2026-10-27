@@ -5,7 +5,6 @@ kind: "package-bundle"
 
 # @deepseek-ai/dsh-experimental-plugin-market-bundle
 
-English | [中文](README.zh.md)
 
 ## Summary
 

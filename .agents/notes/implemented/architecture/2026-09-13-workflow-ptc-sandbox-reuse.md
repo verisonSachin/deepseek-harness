@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-13-workflow-ptc-sandbox-reuse.zh.md)
 
 ## Problem
 

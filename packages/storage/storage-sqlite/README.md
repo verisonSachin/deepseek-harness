@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-storage-sqlite
 
-English | [中文](README.zh.md)
 
 ## Summary
 

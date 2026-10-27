@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-11-user-text-credential-matching.zh.md)
 
 ## Problem
 

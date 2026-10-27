@@ -5,7 +5,6 @@ description: "The runtime invariant registry package and every package's `./inva
 
 # Runtime invariant plugins are removed
 
-English | [中文](guide.zh.md)
 
 ## Change
 

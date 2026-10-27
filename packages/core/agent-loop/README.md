@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-agent-loop
 
-English | [中文](README.zh.md)
 
 ## Summary
 

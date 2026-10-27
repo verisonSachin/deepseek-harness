@@ -4,7 +4,6 @@ description: "Configure and operate the Windows packaging runner, signing creden
 
 # Windows signing and runner operations
 
-English | [中文](README.zh.md)
 
 ## Summary
 

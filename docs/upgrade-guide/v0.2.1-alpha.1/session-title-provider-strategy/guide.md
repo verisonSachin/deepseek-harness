@@ -5,7 +5,6 @@ description: "Session-title providers register directly, own their strategy sett
 
 # Migrate session-title providers
 
-English | [中文](guide.zh.md)
 
 ## Change
 

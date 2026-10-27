@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-10-19
 
-English | [中文](2026-10-14-built-in-plugin-feature-previews.zh.md)
 
 ## Problem
 

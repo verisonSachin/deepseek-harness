@@ -4,7 +4,6 @@ description: "Desktop runs the Harness workspace in a native application. This r
 
 # DeepSeek Harness Desktop
 
-English | [中文](README.zh.md)
 
 ## Summary
 

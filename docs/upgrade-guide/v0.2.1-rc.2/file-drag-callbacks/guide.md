@@ -5,7 +5,6 @@ description: "Custom image factories and Markdown image delegates must supply fi
 
 # Supply file preparation callbacks to image views
 
-English | [中文](guide.zh.md)
 
 ## Change
 

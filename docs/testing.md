@@ -1,6 +1,5 @@
 # Testing policy
 
-English | [中文](testing.zh.md)
 
 How this repo tests, tier by tier, and the rules that keep a green suite meaningful. Commands live in root [AGENTS.md](../AGENTS.md); linked Agent Notes carry the rationale.
 
@@ -18,7 +17,7 @@ Session fixtures retain headers and payloads but omit body sequence/time envelop
 
 ## How specs execute
 
-Forked workers run several spec files at once, the coverage gate splits into [concurrent partitions](../scripts/coverage-partitions.ts) beside the other gates in its job, and the self-hosted runners share one host and one volume. Only the process is isolated: ports, predictable paths, external namespaces, and inherited children are not. Own each acquired resource through teardown. A spec passing only alone has a test defect, not an unstable runner. [dsh-ci-test-reliability](../.agents/skills/dsh-ci-test-reliability/SKILL.md) owns the allocation, restoration, synchronization, timeout-budget, platform, and teardown rules; its [flake diagnosis workflow](../.agents/skills/dsh-ci-test-reliability/references/ci-flake-diagnosis.md) classifies an existing probabilistic failure. [Unexpected fork exits](../scripts/coverage-fork-diagnostics.ts) report PID, file, code, and signal.
+Forked workers run several spec files at once, the coverage gate splits into [concurrent partitions](../scripts/coverage-partitions.ts) beside the other gates in its job, and the self-hosted runners share one host and one volume. Only the process is isolated: ports, predictable paths, external namespaces, and inherited children are not. Own each acquired resource through teardown. A spec passing only alone has a test defect, not an unstable runner. The reliability rules cover allocation, restoration, synchronization, timeout budgets, platform differences, and teardown; probabilistic failures are classified by re-reading those rules against the failing case. [Unexpected fork exits](../scripts/coverage-fork-diagnostics.ts) report PID, file, code, and signal.
 
 ## The with-key policy: inference is cheap here
 

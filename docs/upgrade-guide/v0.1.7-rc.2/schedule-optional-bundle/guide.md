@@ -5,7 +5,6 @@ description: "The Web composition no longer carries the Schedule rows; the Autom
 
 # Schedule moves into the Automation tasks optional bundle
 
-English | [中文](guide.zh.md)
 
 ## Change
 

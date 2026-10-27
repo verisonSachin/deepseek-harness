@@ -5,7 +5,6 @@ description: "pi-ai 1.3.0 changes provider protocols, reasoning choices, history
 
 # pi-ai 1.3.0 protocol and replay changes
 
-English | [中文](guide.zh.md)
 
 ## Change
 

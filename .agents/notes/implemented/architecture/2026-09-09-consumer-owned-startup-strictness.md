@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-09-consumer-owned-startup-strictness.zh.md)
 
 ## Problem
 

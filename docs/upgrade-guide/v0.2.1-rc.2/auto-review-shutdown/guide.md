@@ -5,7 +5,6 @@ description: "Auto review Sessions retain their permission preset when the appli
 
 # Reopen Auto review Sessions after shutdown
 
-English | [中文](guide.zh.md)
 
 ## Change
 

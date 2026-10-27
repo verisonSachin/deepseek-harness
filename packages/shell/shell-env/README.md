@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-shell-env
 
-English | [中文](README.zh.md)
 
 ## Summary
 

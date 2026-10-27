@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-15-authenticated-browser-host-preferences.zh.md)
 
 ## Problem
 

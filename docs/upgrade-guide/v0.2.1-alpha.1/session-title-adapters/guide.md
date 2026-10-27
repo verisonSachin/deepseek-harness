@@ -5,7 +5,6 @@ description: "Custom title routes require registered adapters and reasoning effo
 
 # Prepare custom title routes
 
-English | [中文](guide.zh.md)
 
 ## Change
 

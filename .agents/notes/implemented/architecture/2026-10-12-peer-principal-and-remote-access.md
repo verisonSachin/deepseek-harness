@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-12-peer-principal-and-remote-access.zh.md)
 
 ## Problem
 

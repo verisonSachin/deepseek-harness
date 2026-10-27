@@ -4,7 +4,6 @@ description: "DSH requires Node.js 24.9 or newer and no longer supports Node.js 
 ---
 # Node.js 24 is required
 
-English | [中文](guide.zh.md)
 
 ## Change
 

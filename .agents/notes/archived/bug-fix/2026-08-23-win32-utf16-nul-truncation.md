@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-23-win32-utf16-nul-truncation.zh.md)
 
 ## Problem
 

@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-18
 
-English | [中文](2026-09-16-movable-mandatory-update-window.zh.md)
 
 ## Problem
 

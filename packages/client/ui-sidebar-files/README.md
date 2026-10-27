@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-client-ui-sidebar-files
 
-English | [中文](README.zh.md)
 
 ## Summary
 

@@ -5,7 +5,6 @@ kind: persistence-change
 
 # 2026-09-16-session-format-v4
 
-English | [中文](2026-09-16-session-format-v4.zh.md)
 
 ## Summary
 

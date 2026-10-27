@@ -5,7 +5,6 @@ description: "AccountBonusNotification exposes unvalidated optional metadata and
 
 # Update account notification consumers
 
-English | [中文](guide.zh.md)
 
 ## Change
 

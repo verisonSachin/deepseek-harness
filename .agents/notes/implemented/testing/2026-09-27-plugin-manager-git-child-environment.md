@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-27-plugin-manager-git-child-environment.zh.md)
 
 ## Problem
 

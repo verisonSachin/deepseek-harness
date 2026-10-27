@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-22-desktop-main-bundle-after-workspace-tsdown.zh.md)
 
 ## Problem
 

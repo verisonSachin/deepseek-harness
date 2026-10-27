@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-06-packed-install-private-npm-cache.zh.md)
 
 ## Problem
 

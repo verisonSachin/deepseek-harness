@@ -4,7 +4,6 @@ description: "Store-owned Sessions reject writes before creation announcement co
 ---
 # Store-owned Session writes follow publication
 
-English | [中文](guide.zh.md)
 
 ## Change
 

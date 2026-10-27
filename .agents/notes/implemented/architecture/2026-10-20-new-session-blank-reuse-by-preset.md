@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-20-new-session-blank-reuse-by-preset.zh.md)
 
 ## Problem
 

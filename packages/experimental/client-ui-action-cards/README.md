@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-client-ui-action-cards
 
-English | [中文](README.zh.md)
 
 ## Summary
 

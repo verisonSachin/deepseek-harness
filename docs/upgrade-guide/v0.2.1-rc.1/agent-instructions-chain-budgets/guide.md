@@ -5,7 +5,6 @@ description: "The maxBytes budget of @deepseek-ai/dsh-agent-instructions caps ea
 
 # Size `maxBytes` of `@deepseek-ai/dsh-agent-instructions` per instruction chain
 
-English | [中文](guide.zh.md)
 
 ## Change
 

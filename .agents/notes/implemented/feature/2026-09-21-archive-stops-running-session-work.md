@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-21-archive-stops-running-session-work.zh.md)
 
 ## Problem
 

@@ -5,7 +5,6 @@ kind: persistence-change
 
 # 2026-10-07-title-reasoning-effort
 
-English | [中文](2026-10-07-title-reasoning-effort.zh.md)
 
 ## Summary
 

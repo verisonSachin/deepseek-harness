@@ -5,7 +5,6 @@ description: "Built-in language registrations conflict with third-party language
 
 # Built-in languages replace duplicate language packs
 
-English | [中文](guide.zh.md)
 
 ## Change
 

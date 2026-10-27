@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-16-experimental-voice-input.zh.md)
 
 ## Problem
 

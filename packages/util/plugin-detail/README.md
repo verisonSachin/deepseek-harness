@@ -5,7 +5,6 @@ kind: "package-library"
 
 # dsh-plugin-detail
 
-English | [中文](README.zh.md)
 
 ## Summary
 

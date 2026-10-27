@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-19-deepseek-reasoning-passback-every-turn.zh.md)
 
 ## Problem
 

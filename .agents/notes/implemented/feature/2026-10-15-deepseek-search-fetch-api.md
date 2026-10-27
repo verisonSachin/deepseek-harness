@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-15-deepseek-search-fetch-api.zh.md)
 
 ## Problem
 

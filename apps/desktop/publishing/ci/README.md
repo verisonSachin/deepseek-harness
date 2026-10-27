@@ -4,7 +4,6 @@ description: "Operate retained Desktop package publication from dedicated macOS 
 
 # Desktop CI publication
 
-English | [中文](README.zh.md)
 
 ## Summary
 

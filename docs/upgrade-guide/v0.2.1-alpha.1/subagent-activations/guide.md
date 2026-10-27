@@ -5,7 +5,6 @@ description: "Managed subagent activations replace foreground and Job-backed del
 
 # Migrate delegation to managed subagent activations
 
-English | [中文](guide.zh.md)
 
 ## Change
 

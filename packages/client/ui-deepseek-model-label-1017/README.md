@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-client-ui-deepseek-model-label-1017
 
-English | [中文](README.zh.md)
 
 ## Summary
 

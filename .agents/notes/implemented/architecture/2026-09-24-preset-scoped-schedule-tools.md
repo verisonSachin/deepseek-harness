@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-24-preset-scoped-schedule-tools.zh.md)
 
 ## Problem
 

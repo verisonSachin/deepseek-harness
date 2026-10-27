@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-20-spawn-agent-preset-selection.zh.md)
 
 ## Problem
 

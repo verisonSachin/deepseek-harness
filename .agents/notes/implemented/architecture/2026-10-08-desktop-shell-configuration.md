@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-08-desktop-shell-configuration.zh.md)
 
 ## Problem
 

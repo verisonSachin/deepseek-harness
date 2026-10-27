@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-12-publish-all-experimental-packages.zh.md)
 
 ## Problem
 

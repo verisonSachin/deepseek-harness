@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # dsh-cua native helper
 
-English | [中文](README.zh.md)
 
 ## Summary
 

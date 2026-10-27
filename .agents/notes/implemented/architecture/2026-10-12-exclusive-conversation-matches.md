@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-12-exclusive-conversation-matches.zh.md)
 
 ## Problem
 

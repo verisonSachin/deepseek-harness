@@ -1,6 +1,5 @@
 # Session format version and release status
 
-English | [中文](session-format-status.zh.md)
 
 ## Summary
 

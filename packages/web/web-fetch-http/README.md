@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-web-fetch-http
 
-English | [中文](README.zh.md)
 
 ## Summary
 

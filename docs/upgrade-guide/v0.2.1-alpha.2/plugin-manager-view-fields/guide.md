@@ -5,7 +5,6 @@ description: "viewProfilePackage from @deepseek-ai/dsh-plugin-manager/operations
 
 # `viewProfilePackage` takes the fields it prints
 
-English | [中文](guide.zh.md)
 
 ## Change
 

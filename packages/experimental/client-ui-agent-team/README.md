@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-experimental-client-ui-agent-team
 
-English | [中文](README.zh.md)
 
 ## Summary
 

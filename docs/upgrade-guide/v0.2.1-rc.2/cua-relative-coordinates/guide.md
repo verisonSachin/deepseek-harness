@@ -5,7 +5,6 @@ description: "CUA relative coordinates accept integers from 0 to 999 and reject 
 
 # CUA relative coordinates use 0–999
 
-English | [中文](guide.zh.md)
 
 ## Change
 

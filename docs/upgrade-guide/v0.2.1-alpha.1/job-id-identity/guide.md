@@ -5,7 +5,6 @@ description: "JobId now identifies one background execution across registry life
 
 # Background job ids identify one execution
 
-English | [中文](guide.zh.md)
 
 ## Change
 

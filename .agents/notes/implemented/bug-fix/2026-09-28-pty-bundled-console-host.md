@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-28-pty-bundled-console-host.zh.md)
 
 ## Problem
 

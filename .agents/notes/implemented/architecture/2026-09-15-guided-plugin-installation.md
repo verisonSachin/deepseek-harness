@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-15-guided-plugin-installation.zh.md)
 
 ## Problem
 

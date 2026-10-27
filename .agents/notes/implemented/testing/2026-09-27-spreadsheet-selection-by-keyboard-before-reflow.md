@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-27-spreadsheet-selection-by-keyboard-before-reflow.zh.md)
 
 ## Problem
 
@@ -22,7 +21,7 @@ The budget-sheet click at the start of the scenario stays a pointer click: it ta
 
 **Wait for the selection box to render before clicking.** That restores the passing path in which the click lands on A1's own drag handle and selects nothing, so the assertions would verify the initial selection rather than an interaction. Clicking a cell other than the initial selection instead keeps the geometry-bound updater and its re-execution window open across the reflow that follows.
 
-**Wait for the renderer to go idle before the first reflow.** No product state names "React has no re-execution pending"; an idle or fixed wait sized to the runner is the flake-masking wait [dsh-ci-test-reliability](../../../skills/dsh-ci-test-reliability/SKILL.md) rejects.
+**Wait for the renderer to go idle before the first reflow.** No product state names "React has no re-execution pending"; an idle or fixed wait sized to the runner is the flake-masking wait this decision rejects.
 
 **Extend the `@fortune-sheet/react` patch to resolve the cell outside the updater.** `handleCellAreaMouseDown` lives in `@fortune-sheet/core`, and the window a user would need to hit is a pointer press and a sidebar reflow inside one deferred render. It stays an upstream concern; the product change is out of this test fix.
 

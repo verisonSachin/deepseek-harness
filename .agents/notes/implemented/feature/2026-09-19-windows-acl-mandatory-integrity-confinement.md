@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-19-windows-acl-mandatory-integrity-confinement.zh.md)
 
 ## Problem
 

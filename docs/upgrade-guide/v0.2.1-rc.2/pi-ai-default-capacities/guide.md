@@ -5,7 +5,6 @@ description: "Undescribed pi-ai models inherit larger context and output capacit
 
 # pi-ai default model capacities
 
-English | [中文](guide.zh.md)
 
 ## Change
 

@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-05-official-on-demand-bundles.zh.md)
 
 ## Problem
 

@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-27-web-search-offered-by-provider-readiness.zh.md)
 
 ## Problem
 

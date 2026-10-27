@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-09-cua-shared-native-helper.zh.md)
 
 ## Problem
 

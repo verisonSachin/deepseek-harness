@@ -5,7 +5,6 @@ description: "`--from-default-profile` now replaces an existing custom profile i
 
 # `--from-default-profile` replaces an existing profile
 
-English | [中文](guide.zh.md)
 
 ## Change
 

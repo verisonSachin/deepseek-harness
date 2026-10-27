@@ -5,7 +5,6 @@ description: "dsh plugin reads --profile only before the forwarded pnpm argument
 
 # `dsh plugin` option placement
 
-English | [中文](guide.zh.md)
 
 ## Change
 

@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-08-23-client-derived-tool-presentation.zh.md)
 
 ## Problem
 
@@ -561,7 +560,7 @@ This change does not promise to preserve differences expressed only through a Ho
 
 ## Verification Commands
 
-Changes to this decision use `dsh-pre-push-checks` to select commands for the final diff. Required evidence includes:
+Changes to this decision select the narrowest commands covering the final diff. Required evidence includes:
 
 - focused Session Controller history/transport tests;
 - ui-chat and ui-trajectory Tool Definition tests;

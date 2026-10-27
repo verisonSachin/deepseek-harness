@@ -4,7 +4,6 @@ description: "The HTTP fetch provider no longer rejects non-public destinations,
 ---
 # `web_fetch` reaches private destinations
 
-English | [中文](guide.zh.md)
 
 ## Change
 

@@ -2,7 +2,6 @@
 
 Status: proposed
 
-English | [中文](2026-10-18-parse-ssh-policy-once.zh.md)
 
 ## Problem
 

@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-12-experimental-publication-denylist.zh.md)
 
 ## Problem
 

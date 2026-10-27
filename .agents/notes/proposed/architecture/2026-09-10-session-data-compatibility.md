@@ -2,7 +2,6 @@
 
 Status: proposed
 
-English | [中文](2026-09-10-session-data-compatibility.zh.md)
 
 ## Problem
 

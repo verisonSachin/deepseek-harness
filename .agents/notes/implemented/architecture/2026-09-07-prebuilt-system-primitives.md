@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-07-prebuilt-system-primitives.zh.md)
 
 ## Problem
 

@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-10-deepseek-image-token-calculator-v41.zh.md)
 
 ## Problem
 

@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-15-narrow-pi-ai-runtime-imports.zh.md)
 
 ## Problem
 

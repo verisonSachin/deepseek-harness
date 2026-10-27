@@ -5,7 +5,6 @@ kind: "package-reference"
 
 # @deepseek-ai/dsh-api-terminal-controller
 
-English | [中文](README.zh.md)
 
 ## Summary
 

@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-10-13-chat-single-fold-motion.zh.md)
 
 ## Problem
 

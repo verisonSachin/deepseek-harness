@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-03-pi-ai-declared-provider-catalog.zh.md)
 
 ## Problem
 

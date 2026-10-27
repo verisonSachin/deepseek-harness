@@ -1,6 +1,5 @@
 # Schedule reminders
 
-English | [中文](schedule.zh.md)
 
 ## Summary
 

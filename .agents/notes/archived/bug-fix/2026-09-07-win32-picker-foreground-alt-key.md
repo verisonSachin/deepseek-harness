@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-07-win32-picker-foreground-alt-key.zh.md)
 
 ## Problem
 

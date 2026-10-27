@@ -2,7 +2,6 @@
 
 Status: implemented
 
-English | [中文](2026-09-28-dual-release-install-layout-work-budget.zh.md)
 
 ## Problem
 

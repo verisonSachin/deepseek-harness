@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-04
 
-English | [中文](2026-08-20-webworker-node-face.zh.md)
 
 ## Problem
 

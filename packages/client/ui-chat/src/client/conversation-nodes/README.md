@@ -3,7 +3,6 @@ description: "Detailed business rules for Chat process grouping and activity sum
 ---
 # Chat conversation node rules
 
-English | [中文](README.zh.md)
 
 ## Summary
 

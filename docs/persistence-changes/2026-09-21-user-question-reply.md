@@ -5,7 +5,6 @@ kind: persistence-change
 
 # 2026-09-21-user-question-reply
 
-English | [中文](2026-09-21-user-question-reply.zh.md)
 
 ## Summary
 

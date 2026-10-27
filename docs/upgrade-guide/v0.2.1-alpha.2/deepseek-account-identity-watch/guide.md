@@ -5,7 +5,6 @@ description: "DeepSeekAccount.watch no longer includes Platform identity changes
 
 # Explicitly subscribe to account identity changes
 
-English | [中文](guide.zh.md)
 
 ## Change
 

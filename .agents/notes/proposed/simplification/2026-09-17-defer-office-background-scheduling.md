@@ -2,7 +2,6 @@
 
 Status: proposed
 
-English | [中文](2026-09-17-defer-office-background-scheduling.zh.md)
 
 ## Problem
 

@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-09-16-messages-historical-tool-input.zh.md)
 
 ## Problem
 

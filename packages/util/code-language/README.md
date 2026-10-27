@@ -5,7 +5,6 @@ kind: "package-library"
 
 # dsh-util-code-language
 
-English | [中文](README.zh.md)
 
 ## Summary
 

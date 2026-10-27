@@ -3,7 +3,6 @@
 Status: implemented
 Archived: 2026-09-30
 
-English | [中文](2026-08-25-promote-open-anywhere-plugin.zh.md)
 
 ## Problem
 

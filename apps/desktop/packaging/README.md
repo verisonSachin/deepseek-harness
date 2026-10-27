@@ -4,7 +4,6 @@ description: "Build Desktop installers locally or through Windows or macOS Actio
 
 # Desktop packaging
 
-English | [中文](README.zh.md)
 
 ## Summary
 

@@ -5,7 +5,6 @@ kind: "package-bundle"
 
 # @deepseek-ai/dsh-personalized-recommendations
 
-English | [中文](README.zh.md)
 
 ## Summary
 
