@@ -27,33 +27,5 @@ export const COVERAGE_EXEMPT_ENV = 'DSH_COVERAGE_EXEMPT_HEAVY'
 
 /** Coverage-exempt heavy suites; keep filter and exclude selecting the same files. */
 export const coverageExemptHeavySuites: readonly CoverageExemptSuite[] = [
-  // Typert src is threshold-excluded; compiler analysis runs uninstrumented.
-  // The generator's tools-catalog registry and
-  // tool-cordis imports are fully covered by those packages' own tests.
-  {
-    filter: 'packages/typert/',
-    exclude: 'packages/typert/*/tests/**',
-  },
-  // The webworker-runtime package is outside the coverage requirement by
-  // decision: vitest.config.ts threshold-excludes its src, so every suite
-  // runs uninstrumented. This tree includes the full-corpus import gate, a
-  // single 900s-budget case that spawns a child sweep over every built
-  // bundle; inside an instrumented partition it exceeds the Windows
-  // partition budget under load.
-  {
-    filter: 'packages/experimental/webworker-runtime/tests/',
-    exclude: 'packages/experimental/webworker-runtime/tests/**',
-  },
-  // Real child-process fixtures over scripts/ sources, which coverage never measures.
-  { filter: 'scripts/install-lefthook.spec.ts', exclude: 'scripts/install-lefthook.spec.ts' },
-  { filter: 'scripts/oxlint-contract.spec.ts', exclude: 'scripts/oxlint-contract.spec.ts' },
-  { filter: 'scripts/change-scope.spec.ts', exclude: 'scripts/change-scope.spec.ts' },
-  // Built-artifact proof. Packer/runtime src is threshold-excluded, and the
-  // suite self-skips on unbuilt checkouts; the serial-windows complete
-  // reference still starts this uninstrumented gate after its build gate, so
-  // the assertions execute against complete real artifacts there.
-  {
-    filter: 'packages/experimental/webworker-packer/tests/image-loadable.spec.ts',
-    exclude: 'packages/experimental/webworker-packer/tests/image-loadable.spec.ts',
-  },
+  // This fork ships no test suites, so no heavy suite needs an uninstrumented lane.
 ]

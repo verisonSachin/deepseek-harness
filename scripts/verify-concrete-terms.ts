@@ -53,11 +53,9 @@ function trackedFiles(repoRoot: string): string[] {
   const files = execFileSync('git', ['ls-files', '-z'], { cwd: repoRoot, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 })
     .split('\0')
     .filter(file => file !== '')
-  if (!files.includes('AGENTS.md')
-    || !files.some(file => file.startsWith('packages/'))
+  if (!files.some(file => file.startsWith('packages/'))
     || !files.some(file => file.startsWith('docs/'))
-    || !files.some(file => file.startsWith('vendor/'))
-    || !files.some(file => file.startsWith('.agents/notes/archived/'))) {
+    || !files.some(file => file.startsWith('vendor/'))) {
     throw new Error('verify-concrete-terms: tracked-file discovery omitted a required repository area')
   }
   return files

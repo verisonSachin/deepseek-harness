@@ -217,7 +217,7 @@ throw new EndpointError('not found')   // was: return { ok: false, code: 'not_fo
 
 ## dispose 必须达到完全停稳，而不仅仅是请求停止
 
-发出终止或中止信号后，应等待子进程退出。可选通知可以提前停止；完成清理或最终持久化所需的资源和监听器必须保留到消费方结束。参见 [Cordis 所有权检查](../../.agents/skills/cordis-styling-nitpicking/SKILL.md#p0-cleanup-dependency-released-before-consumer-completion)。
+发出终止或中止信号后，应等待子进程退出。可选通知可以提前停止；完成清理或最终持久化所需的资源和监听器必须保留到消费方结束。
 
 判定条件是清理是否等待到真正停稳，而不只是发出请求。边界是没有可等待归属的工作——无人观察的游离任务——清理逻辑没有义务追踪它；但组件自己启动、且仍能观察到的工作，必须在它报告完成之前等待完毕。
 

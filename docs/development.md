@@ -31,17 +31,7 @@ Install dependencies from the repo root:
 pnpm install
 ```
 
-The install also configures worktree-local Lefthook hooks through `scripts/install-lefthook.mjs`. The [worktree-local hooks Agent Note](../.agents/notes/implemented/process/2026-07-27-worktree-local-lefthook.md) owns the hook-path safety contract.
-
-The [DevTools frontend](../packages/experimental/inspector/README.md#use-this-package) is compiled locally from a pinned npm source package and Vite. After dependencies are installed, its build needs no network access or browser installation. Workspace and published-package installation run no DevTools resource-download hook; published Inspector packages contain the built frontend.
-
-If the hooks are missing because dependencies were restored from cache or `postinstall` was skipped, install them manually:
-
-```sh
-node scripts/install-lefthook.mjs
-```
-
-If the wrapper rejects existing Git configuration or reports a stale lock, follow its diagnostic and the linked Agent Note rather than editing worktree metadata speculatively. After moving a checkout, rerun the wrapper to regenerate the owned path.
+The install also compiles the Inspector DevTools frontend from a pinned npm source package and Vite. After dependencies are installed, its build needs no network access or browser installation. Workspace and published-package installation run no DevTools resource-download hook; published Inspector packages contain the built frontend.
 
 Run typecheck once after a fresh clone:
 
@@ -134,33 +124,23 @@ DEEPSEEK_BASE_URL=https://... # optional
 
 ### Git integrations
 
-`.i18n.yaml` records use Git's default text merge. A record conflicts only when both branches changed language-specific content in the same heading section; resolve the Markdown, then rerun `pnpm run verify-translation-pairing --write <pair>`. If `pre-merge-commit` rejects an otherwise clean merge, Git leaves the complete result staged without a commit; repair the failure and run `git commit`, or run `git merge --abort`.
+This repository installs no Git hooks. Commits, merges, and pushes run no automatic checks.
 
-lefthook is configured in `lefthook.yml` as a fast local checkpoint:
+`.i18n.yaml` records use Git's default text merge. A record conflicts only when both branches changed language-specific content in the same heading section; resolve the Markdown, then rerun `pnpm run verify-translation-pairing --write <pair>`.
 
-- `pre-commit` verifies staged pairing records against the staged owner blobs, validates staged files with the project-free `.oxlintrc.staged.json` profile and applies Oxlint fixes with one bounded retry, checks the staged diff for whitespace errors, checks pi-ai provider metadata when its inputs or generated file are staged, and runs the vendor manifest guard.
-- `pre-merge-commit` performs the same index-backed pairing check before Git creates an automatic merge commit.
-- `pre-push` runs `pnpm run typecheck`, which generates Typert contracts without bundling before the Client TypeScript check and checks both aggregates.
+Run the [checks relevant to the changed behavior](testing.md) once before committing. CI owns exhaustive coverage, built-artifact smokes, and the Node 24.9, latest 24, and 26 compatibility matrix.
 
-The vendor manifest guard checks that changes under `vendor/*/src` are staged with the matching `vendor/README.md` manifest update. See `vendor/README.md` before editing vendored code.
-
-The pi-ai check regenerates expected metadata in memory. It rejects stale data without rewriting or staging files. After a pi-ai dependency or generator change, follow the package's [provider metadata update steps](../packages/llm/llm-pi-ai/README.md#generated-provider-metadata).
-
-Apart from the scoped pairing and provider metadata checks, the hooks intentionally do not run tests, snapshots, documentation checks, builds, or hygiene. Contributors run the [checks relevant to the changed behavior](../AGENTS.md#run-relevant-checks-locally) once; CI owns exhaustive coverage, built-artifact smokes, and the Node 24.9, latest 24, and 26 compatibility matrix.
-
-Contributors can opt into the comprehensive local gate set with `pnpm run check:all`. The command is independent of the Git hooks and is not an agent instruction.
+Contributors can opt into the comprehensive local gate set with `pnpm run check:all`.
 
 Outside CI (`CI` other than `true`), default worker counts follow the [local worker budget](../scripts/parallelism.ts): 12 for gate schedulers, `build`, `typecheck`, Oxlint, and publint, and 48 for Vitest forks and local coverage. `doc-sync`, `test:docs`, `hygiene`, and `check:all` run at most 8 gates at once, in CI as well. `os.availableParallelism()` reports host CPUs rather than a container's CPU quota, so uncapped defaults oversubscribe shared hosts. CI keeps the runner's CPU count. `DSH_GATE_CONCURRENCY`, `DSH_OXLINT_THREADS`, `DSH_COVERAGE_MAX_WORKERS`, and Vitest `--maxWorkers` override the defaults.
 
 ### CI gates
 
-The keyless [CI workflow](../.github/workflows/ci.yml) groups independent gates into broad lanes and runs a smaller compatibility signal across supported Node versions. Artifact consumers wait for one build within their lane. Coverage partitions reuse file timings scoped to their platform and runner pool to balance work within the configured worker limit. Native Windows lanes run in the separate [CI Windows workflow](../.github/workflows/ci-windows.yml) and Python checks in the separate [CI Python workflow](../.github/workflows/ci-python.yml), each of which can be re-run independently. Required benchmarks run separately on standard GitHub-hosted Linux; the [benchmark runner reference](../benchmarks/AGENTS.md) owns routing and the job timeout. The separate real-API workflow runs `pnpm run test:e2e` with its configured worker bound. See [scripts/run-gates.ts](../scripts/run-gates.ts) and the workflow files for the current gate and job inventory.
-
-The credential-free dsh dependency-layout and dsh/vendor pack rehearsals use the existing Linux self-hosted pool only when `DSH_CI_FAILOVER_LINUX=selfhosted` and the event is a trusted master push or same-repository, non-fork, non-Dependabot pull request. All other cases, including manual dispatch, use `ubuntu-24.94`; manual publication stays hosted. See the [release rehearsal runner reference](../.agents/notes/implemented/process/2026-07-26-ci-failover-runbook.md) for persistent-store isolation and fallback limits.
+The gate inventory lives in [scripts/run-gates.ts](../scripts/run-gates.ts); this fork ships no CI workflow files. The gates keep the same lane structure upstream used: independent groups run in parallel, artifact consumers wait for one build within their lane, and coverage partitions reuse file timings scoped to their platform and runner pool to balance work within the configured worker limit.
 
 ### Daily commands
 
-The root [contributor instructions](../AGENTS.md#commands) summarize common commands, while [`package.json`](../package.json) and [scripts/run-gates.ts](../scripts/run-gates.ts) own the current script and gate inventories. Select the smallest checks that cover the changed surface. Documentation changes use `pnpm run doc-sync`; package-public behavior changes also update the owning README or JSDoc, and built-artifact checks require `pnpm run build` first.
+[`package.json`](../package.json) and [scripts/run-gates.ts](../scripts/run-gates.ts) own the current script and gate inventories. Select the smallest checks that cover the changed surface. Documentation changes use `pnpm run doc-sync`; package-public behavior changes also update the owning README or JSDoc, and built-artifact checks require `pnpm run build` first.
 
 ### Profile runs
 
